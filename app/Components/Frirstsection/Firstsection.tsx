@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
+import Image from 'next/image'; 
+
 
 const Firstsection: React.FC = () => {
   return (
@@ -14,7 +15,9 @@ const Firstsection: React.FC = () => {
         </div>
         
         <div className="mt-6 md:mt-0 md:w-1/2 md:pl-4 ml-96">
-            <img src="/images/s1.jpg" alt="logo" className="w-full md:w-[400px] h-auto rounded-md object-cover"></img>
+            <Image src="/images/s1.jpg" alt="logo" className="w-full md:w-[400px] h-auto rounded-md object-cover"></Image>
+            
+
         </div>
     </section>
   )
